@@ -1,5 +1,13 @@
 # Koilerplate
 
+![PyPI](https://img.shields.io/pypi/v/koilerplate)
+![PyPI - License](https://img.shields.io/pypi/l/koilerplate?style=flat)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/koilerplate)
+![PyPI - Format](https://img.shields.io/pypi/format/koilerplate)
+![PyPI - Status](https://img.shields.io/pypi/status/koilerplate)
+![Read the Docs](https://img.shields.io/readthedocs/koilerplate)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 One of my great frustrations when building notebooks for [kaggle](https://kaggle.com) 
 is the amount of boilerplate code I always add to the top of each notebook.
 
@@ -19,3 +27,4 @@ and I'll try and get back to you.
 # License
 
 This is licensed under the MIT license. See LICENSE.txt for details.
+
