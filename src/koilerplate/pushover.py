@@ -10,10 +10,9 @@ notifications.
 from __future__ import annotations
 
 __author__ = "Andrew Scholan"
-__copyright__ = "Copyright (c)2021, FUTEK Inc, Irvine, CA, USA"
 __credits__ = []
-__license__ = "None granted"
-__version__ = ""
+__license__ = "MIT"
+__version__ = "0.1.0"
 __maintainer__ = "Andrew Scholan"
 __email__ = "andrew.scholan@scholan.com"
 __status__ = "Development"
