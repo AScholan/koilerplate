@@ -49,7 +49,7 @@ print(f"TEMP_ROOT={TEMP_ROOT}")
 
 ### Example kaggle notebook
 
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Coming soon
+- [koilerplate folders and zipout (public)](https://www.kaggle.com/andrewscholan/koilerplate-folders-and-zipout-public)
 
 ---
 ## zipout
@@ -97,7 +97,7 @@ print(zip_file_path)
 
 ### Example kaggle notebook
 
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Coming soon
+- [koilerplate folders and zipout (public)](https://www.kaggle.com/andrewscholan/koilerplate-folders-and-zipout-public)
 
 ---
 ## pushover
@@ -138,7 +138,7 @@ pushover("Hello Kaggle World!")
 ```
 ### Example kaggle notebook
 
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Coming soon
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Sorry, none yet.
 
 ## offline
 
@@ -215,13 +215,13 @@ size 1.2GB._
 
 Now, start a new notebook that will become your competition entry notebook and add
 to it your newly created dataset. You will now see that this appears in your input
-folder for the notebook:
+folder for the notebook _(note that kaggle will drop the hyphen in the dataset name)_:
 
 ```text
 /
 └── kaggle
       ├── input                     # Kaggle loads all datasets here
-      │   ├── competition-packages  # This is your newly created dataset
+      │   ├── competitionpackages   # This is your newly created dataset
       │   .   ├── requirements.txt  # requirements file that you will use with pip
       │   .   └── wheels
       │           ├── ... .whl      # the offline wheels files that pip will use
@@ -233,9 +233,9 @@ notebook:
 
 ```jupyter
 !pip install \
-   --requirement /input/competition-packages/requirements.txt \
+   --requirement /kaggle/input/competitionpackages/requirements.txt \
    --no-index \
-   --find-links file:///input/competition-packages/wheels
+   --find-links file:///kaggle/input/competitionpackages/wheels
 ```
 _Note that it's very important to include the **--no-index** flag or this will not 
 work when the internet access for the notebook is disabled._
@@ -247,9 +247,11 @@ before you use them:
 import torch
 import cellpose
 ```
-### Example kaggle notebook
+### Example kaggle notebooks/datasets
 
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Coming soon
+- Notebook describing process: [koilerplate offline (public)](https://www.kaggle.com/andrewscholan/koilerplate-offline-public)
+- Example dataset using process: [competition-packages](https://www.kaggle.com/andrewscholan/competitionpackages)
+- Example competition notebook: [koilerplate offline pip install example](https://www.kaggle.com/andrewscholan/koilerplate-offline-pip-install-example)
 
 ---
 ## Suggestions

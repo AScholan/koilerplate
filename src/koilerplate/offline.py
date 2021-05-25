@@ -39,9 +39,9 @@ Examples:
     Add the following to a code cell at the top of the notebook:
 
         >>> !pip install \\
-        >>>    --requirement /input/competition-packages/requirements.txt \\
-        >>>    --no-index \\
-        >>>    --find-links file:///input/competition-packages/wheels
+        >>>     --requirement /kaggle/input/competitionpackages/requirements.txt \\
+        >>>     --no-index \\
+        >>>     --find-links file:///kaggle/input/competitionpackages/wheels
 
     Important: You need the --no-index to make this work offline!
 """
@@ -51,7 +51,7 @@ from __future__ import annotations
 __author__ = "Andrew Scholan"
 __credits__ = []
 __license__ = "MIT"
-__version__ = "0.1.0"
+__version__ = "0.1.3"
 __maintainer__ = "Andrew Scholan"
 __email__ = "andrew.scholan@scholan.com"
 __status__ = "Development"
